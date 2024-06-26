@@ -2,6 +2,7 @@
 import React from 'react';
 import { View, Text, StyleSheet, FlatList,Image } from 'react-native';
 import { Card, Title, Paragraph } from 'react-native-paper';
+import { useTheme } from '../components/toggle';}
 
 const transactions = [
   { id: '1', title: 'Apple Store',description:'Entertainment', amount: '- $5.99' ,icon:require('../assets/apple.png')},
